@@ -26,23 +26,24 @@ var myName2 = "Tamila2"
 var myAge2 = 18
 print(myName2, myAge2)
 
-myName2 = "TAMERLAN"
-myAge2 = 19
-print(myName2, myAge2)
+var personName = "Alex"
+var personAge = 25
+print(personName, personAge)
 
-let nameMyMom = "Любов"
-let ageMyMom = 47
-print(nameMyMom, ageMyMom)
-let myfamilyName = "Моя сімʼя, їхні імена Любов, Руслана, Сергій, Олег"
-print(myfamilyName)
+let parentName = "Maria"
+let parentAge = 52
+print(parentName, parentAge)
 
-let myLove = "Моя любов, мій хлопець, Олександр Ярошевський"
-print(myLove)
+let familyDescription = "Сімʼя складається з чотирьох осіб: Анна, Ігор, Віра, Тарас"
+print(familyDescription)
+
+let loveStatement = "Це особлива людина, яку я дуже ціную"
+print(loveStatement)
 
 let movie = """
-не знаю, не знаю,
-щось бдуе щось буде,
-бля бля бла блаб бла баб лава воавомвмвоам аоавмі
+невідомо, невідомо,
+щось буде, щось зміниться,
+тра-та-та, ба-ба-ба, ля-ля-ля
 """
 print(movie)
 
