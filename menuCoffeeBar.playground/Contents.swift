@@ -15,5 +15,7 @@ let menu:  [MenuCategory : [String]] = [
 let name = "Категорія:"
 var selectedCategory = MenuCategory.tea
 print(name, selectedCategory)
-let name2 =  "Товари:"
-print(menu[selectedCategory])
+let selectedMenu = menu[selectedCategory, default: []]
+let menuCount = selectedMenu.count
+print("Товари:", menuCount)
+
